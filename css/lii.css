@@ -1,0 +1,198 @@
+.main-area {
+    width: 100%;
+    background: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-area-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-area-list {
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 10px;
+    margin: 10px auto 25px;
+    height: auto;
+    overflow: hidden;
+}
+
+.card {
+    float: left;
+    background: #ddd;
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px 20px;
+    padding-bottom: 46px;
+    -webkit-box-shadow: 0 0 10px transparent;
+    -moz-box-shadow: 0 0 10px transparent;
+    box-shadow: 0 0 10px transparent;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    cursor: pointer;
+}
+
+.card-2 {
+    width: -moz-calc(16% - 15px);
+    width: -webkit-calc(16% - 15px);
+    width: calc(16% - 15px);
+    height: auto;
+}
+
+.card-label {
+    display: block;
+    top: 100px;
+    right: 1px;
+    position: absolute;
+    background: rgba(0, 0, 0, .44);
+    color: #fff;
+    border-radius: 20px 0 0 20px;
+    padding: 2px 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.card-info .card-title {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Microsoft Yahei', serif;
+    padding: 6px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    height: 58px;
+    white-space: normal;
+}
+
+.card img {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s
+}
+
+.card img {
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden
+}
+
+.card:hover img {
+    opacity: .2
+}
+
+.card:hover .card-info {
+    height: 50px;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s
+}
+
+.card:hover .card-info .meta-title {
+    line-height: 24px;
+    height: 58px;
+    white-space: normal;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s
+}
+
+.card:hover {
+    margin-top: -5px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3)
+}
+
+.card-info .meta-title {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Microsoft Yahei', serif;
+    padding: 6px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    height: 58px;
+    white-space: normal;
+}
+
+.card-info .meta-category {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Microsoft Yahei', serif;
+    text-align: center;
+    padding-top: 3px
+}
+
+.card-info .meta-category a {
+    color: #666
+}
+
+.card-info .card-data {
+    height: 25px;
+    line-height: 20px;
+    color: #888686;
+    border-top: 1px solid #f3f3f3;
+    padding: 5px 5px 0
+}
+
+.card-info .meta-recommend {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Microsoft Yahei', serif;
+    text-align: center;
+    padding-top: 3px
+}
+
+.card-info .meta-recommend-star {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Microsoft Yahei', serif;
+    text-align: center;
+    padding-top: 3px
+}
+
+.card-info .meta-recommend-star i {
+    color: #fc3
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.fa-homes a:before {
+    content: "\f015";
+    color: #f66
+}
+
+.card-popularity {
+    float: right
+}
+
+.card-popularity i {
+    margin-right: 3px;
+    color: #FFB2B2
+}
